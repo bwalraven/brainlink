@@ -1,0 +1,22 @@
+Package: brainlink
+Type: Package
+Title: Beta version of RAINLINK package
+Version: 0.1.0
+Author: Bas Walraven
+Maintainer: <b.walraven@tudelft.nl>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.2.1
+Imports: 
+    geosphere (>= 1.5.10)
+Depends: 
+    R (>= 2.10)
+VignetteBuilder: knitr
