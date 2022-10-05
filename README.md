@@ -12,7 +12,7 @@ It's essentially a beta version of the RAINLINK package (https://github.com/over
 You can install the development version of brainlink like so:
 
 ``` r
-devtools::install_github('bwalraven/brainlink')
+devtools::install_github('bwalraven/brainlink', build_vignettes=TRUE)
 ```
 
 ## Vignettes
